@@ -1,0 +1,1703 @@
+private string CreateHtmlOrderDetails()
+        {
+            string htmlBody = @"<!DOCTYPE html>
+                        <html lang=""en"" xmlns=""http://www.w3.org/1999/xhtml"">
+                        <head>
+                            <meta http-equiv=""Content-Type"" content=""text/html; charset=UTF-8"">
+                            <meta http-equiv=""X-UA-Compatible"" content=""IE=8"">
+                            <title>bcl_424300587.htm</title>
+                            <meta name=""generator"" content=""BCL easyConverter SDK 5.0.140"">
+                            <style type=""text/css"">
+                                body {
+                                    margin-top: 0px;
+                                    margin-left: 0px;
+                                }
+
+                                #page_1 {
+                                    position: relative;
+                                    overflow: hidden;
+                                    margin: 47px 0px 148px 48px;
+                                    padding: 0px;
+                                    border: none;
+                                    width: 745px;
+                                }
+
+                                    #page_1 #p1dimg1 {
+                                        position: absolute;
+                                        top: 4px;
+                                        left: 608px;
+                                        z-index: -1;
+                                        width: 87px;
+                                        height: 542px;
+                                    }
+
+                                        #page_1 #p1dimg1 #p1img1 {
+                                            width: 87px;
+                                            height: 542px;
+                                        }
+
+
+
+
+                                .ft0 {
+                                    font: bold 13px 'Arial';
+                                    line-height: 16px;
+                                }
+
+                                .ft1 {
+                                    font: bold 13px 'Arial';
+                                    line-height: 14px;
+                                }
+
+                                .ft2 {
+                                    font: bold 13px 'Arial';
+                                    line-height: 13px;
+                                }
+
+                                .ft3 {
+                                    font: 1px 'Arial';
+                                    line-height: 1px;
+                                }
+
+                                .ft4 {
+                                    font: 13px 'Arial';
+                                    line-height: 16px;
+                                }
+
+                                .ft5 {
+                                    font: 12px 'Arial';
+                                    line-height: 15px;
+                                }
+
+                                .ft6 {
+                                    font: 11px 'Arial';
+                                    line-height: 14px;
+                                }
+
+                                .ft7 {
+                                    font: 13px 'MS PGothic';
+                                    line-height: 13px;
+                                }
+
+                                .ft8 {
+                                    font: 12px 'MS PGothic';
+                                    line-height: 12px;
+                                }
+
+                                .ft9 {
+                                    font: bold 11px 'MS PGothic';
+                                    line-height: 11px;
+                                }
+
+                                .ft10 {
+                                    font: bold 11px 'Arial';
+                                    line-height: 14px;
+                                }
+
+                                .ft11 {
+                                    font: bold 12px 'Arial';
+                                    line-height: 15px;
+                                }
+
+                                .ft12 {
+                                    font: 16px 'Helvetica';
+                                    line-height: 18px;
+                                }
+
+                                .ft13 {
+                                    font: bold 13px 'MS PGothic';
+                                    line-height: 13px;
+                                }
+
+                                .p0 {
+                                    text-align: left;
+                                    padding-left: 3px;
+                                    margin-top: 0px;
+                                    margin-bottom: 0px;
+                                }
+
+                                .p1 {
+                                    text-align: left;
+                                    padding-left: 3px;
+                                    padding-right: 309px;
+                                    margin-top: 0px;
+                                    margin-bottom: 0px;
+                                }
+
+                                .p2 {
+                                    text-align: left;
+                                    padding-left: 3px;
+                                    padding-right: 201px;
+                                    margin-top: 0px;
+                                    margin-bottom: 0px;
+                                }
+
+                                .p3 {
+                                    text-align: left;
+                                    padding-left: 5px;
+                                    margin-top: 0px;
+                                    margin-bottom: 0px;
+                                    white-space: nowrap;
+                                }
+
+                                .p4 {
+                                    text-align: left;
+                                    padding-left: 39px;
+                                    margin-top: 0px;
+                                    margin-bottom: 0px;
+                                    white-space: nowrap;
+                                }
+
+                                .p5 {
+                                    text-align: left;
+                                    margin-top: 0px;
+                                    margin-bottom: 0px;
+                                    white-space: nowrap;
+                                }
+
+                                .p6 {
+                                    text-align: left;
+                                    padding-left: 15px;
+                                    margin-top: 0px;
+                                    margin-bottom: 0px;
+                                    white-space: nowrap;
+                                }
+
+                                .p7 {
+                                    text-align: left;
+                                    padding-left: 49px;
+                                    margin-top: 0px;
+                                    margin-bottom: 0px;
+                                    white-space: nowrap;
+                                }
+
+                                .p8 {
+                                    text-align: left;
+                                    padding-left: 3px;
+                                    margin-top: 0px;
+                                    margin-bottom: 0px;
+                                    white-space: nowrap;
+                                }
+
+                                .p9 {
+                                    text-align: left;
+                                    padding-left: 141px;
+                                    margin-top: 0px;
+                                    margin-bottom: 0px;
+                                    white-space: nowrap;
+                                }
+
+                                .p10 {
+                                    text-align: left;
+                                    padding-left: 38px;
+                                    margin-top: 0px;
+                                    margin-bottom: 0px;
+                                    white-space: nowrap;
+                                }
+
+                                .p11 {
+                                    text-align: right;
+                                    padding-right: 6px;
+                                    margin-top: 0px;
+                                    margin-bottom: 0px;
+                                    white-space: nowrap;
+                                }
+
+                                .p12 {
+                                    text-align: right;
+                                    padding-right: 38px;
+                                    margin-top: 0px;
+                                    margin-bottom: 0px;
+                                    white-space: nowrap;
+                                }
+
+                                .p13 {
+                                    text-align: left;
+                                    padding-left: 2px;
+                                    margin-top: 0px;
+                                    margin-bottom: 0px;
+                                    white-space: nowrap;
+                                }
+
+                                .p14 {
+                                    text-align: right;
+                                    padding-right: 42px;
+                                    margin-top: 0px;
+                                    margin-bottom: 0px;
+                                    white-space: nowrap;
+                                }
+
+                                .p15 {
+                                    text-align: right;
+                                    padding-right: 46px;
+                                    margin-top: 0px;
+                                    margin-bottom: 0px;
+                                    white-space: nowrap;
+                                }
+
+                                .p16 {
+                                    text-align: right;
+                                    padding-right: 3px;
+                                    margin-top: 0px;
+                                    margin-bottom: 0px;
+                                    white-space: nowrap;
+                                }
+
+                                .p17 {
+                                    text-align: left;
+                                    margin-top: 28px;
+                                    margin-bottom: 0px;
+                                }
+
+                                .p18 {
+                                    text-align: left;
+                                    padding-left: 3px;
+                                    margin-top: 19px;
+                                    margin-bottom: 0px;
+                                }
+
+                                .p19 {
+                                    text-align: right;
+                                    padding-right: 25px;
+                                    margin-top: 0px;
+                                    margin-bottom: 0px;
+                                    white-space: nowrap;
+                                }
+
+                                .p20 {
+                                    text-align: left;
+                                    padding-left: 37px;
+                                    margin-top: 0px;
+                                    margin-bottom: 0px;
+                                    white-space: nowrap;
+                                }
+
+                                .p21 {
+                                    text-align: right;
+                                    padding-right: 61px;
+                                    margin-top: 0px;
+                                    margin-bottom: 0px;
+                                    white-space: nowrap;
+                                }
+
+                                .p22 {
+                                    text-align: left;
+                                    padding-left: 1px;
+                                    margin-top: 0px;
+                                    margin-bottom: 0px;
+                                    white-space: nowrap;
+                                }
+
+                                .p23 {
+                                    text-align: left;
+                                    padding-left: 584px;
+                                    margin-top: 3px;
+                                    margin-bottom: 0px;
+                                }
+
+                                .p24 {
+                                    text-align: left;
+                                    padding-left: 608px;
+                                    margin-top: 3px;
+                                    margin-bottom: 0px;
+                                }
+
+                                .p25 {
+                                    text-align: left;
+                                    padding-left: 574px;
+                                    margin-top: 2px;
+                                    margin-bottom: 0px;
+                                }
+
+                                .p26 {
+                                    text-align: left;
+                                    padding-left: 599px;
+                                    margin-top: 3px;
+                                    margin-bottom: 0px;
+                                }
+
+                                .p27 {
+                                    text-align: left;
+                                    padding-left: 612px;
+                                    margin-top: 3px;
+                                    margin-bottom: 0px;
+                                }
+
+                                .td0 {
+                                    padding: 0px;
+                                    margin: 0px;
+                                    width: 315px;
+                                    vertical-align: bottom;
+                                }
+
+                                .td1 {
+                                    padding: 0px;
+                                    margin: 0px;
+                                    width: 209px;
+                                    vertical-align: bottom;
+                                }
+
+                                .td2 {
+                                    padding: 0px;
+                                    margin: 0px;
+                                    width: 50px;
+                                    vertical-align: bottom;
+                                }
+
+                                .td3 {
+                                    padding: 0px;
+                                    margin: 0px;
+                                    width: 20px;
+                                    vertical-align: bottom;
+                                }
+
+                                .td4 {
+                                    padding: 0px;
+                                    margin: 0px;
+                                    width: 104px;
+                                    vertical-align: bottom;
+                                }
+
+                                .td5 {
+                                    padding: 0px;
+                                    margin: 0px;
+                                    width: 105px;
+                                    vertical-align: bottom;
+                                }
+
+                                .td6 {
+                                    border-bottom: #000000 1px solid;
+                                    padding: 0px;
+                                    margin: 0px;
+                                    width: 315px;
+                                    vertical-align: bottom;
+                                }
+
+                                .td7 {
+                                    border-bottom: #000000 1px solid;
+                                    padding: 0px;
+                                    margin: 0px;
+                                    width: 104px;
+                                    vertical-align: bottom;
+                                }
+
+                                .td8 {
+                                    border-bottom: #000000 1px solid;
+                                    padding: 0px;
+                                    margin: 0px;
+                                    width: 105px;
+                                    vertical-align: bottom;
+                                }
+
+                                .td9 {
+                                    border-bottom: #000000 1px solid;
+                                    padding: 0px;
+                                    margin: 0px;
+                                    width: 50px;
+                                    vertical-align: bottom;
+                                }
+
+                                .td10 {
+                                    border-bottom: #000000 1px solid;
+                                    padding: 0px;
+                                    margin: 0px;
+                                    width: 20px;
+                                    vertical-align: bottom;
+                                }
+
+                                .td11 {
+                                    border-left: #000000 1px solid;
+                                    border-right: #000000 1px solid;
+                                    border-bottom: #000000 1px solid;
+                                    padding: 0px;
+                                    margin: 0px;
+                                    width: 313px;
+                                    vertical-align: bottom;
+                                    background: #c0c0c0;
+                                }
+
+                                .td12 {
+                                    border-right: #000000 1px solid;
+                                    border-bottom: #000000 1px solid;
+                                    padding: 0px;
+                                    margin: 0px;
+                                    width: 103px;
+                                    vertical-align: bottom;
+                                    background: #c0c0c0;
+                                }
+
+                                .td13 {
+                                    border-right: #000000 1px solid;
+                                    border-bottom: #000000 1px solid;
+                                    padding: 0px;
+                                    margin: 0px;
+                                    width: 104px;
+                                    vertical-align: bottom;
+                                    background: #c0c0c0;
+                                }
+
+                                .td14 {
+                                    border-bottom: #000000 1px solid;
+                                    padding: 0px;
+                                    margin: 0px;
+                                    width: 50px;
+                                    vertical-align: bottom;
+                                    background: #c0c0c0;
+                                }
+
+                                .td15 {
+                                    border-right: #000000 1px solid;
+                                    border-bottom: #000000 1px solid;
+                                    padding: 0px;
+                                    margin: 0px;
+                                    width: 19px;
+                                    vertical-align: bottom;
+                                    background: #c0c0c0;
+                                }
+
+                                .td16 {
+                                    border-left: #000000 1px solid;
+                                    border-right: #000000 1px solid;
+                                    border-bottom: #000000 1px solid;
+                                    padding: 0px;
+                                    margin: 0px;
+                                    width: 313px;
+                                    vertical-align: bottom;
+                                }
+
+                                .td17 {
+                                    border-right: #000000 1px solid;
+                                    border-bottom: #000000 1px solid;
+                                    padding: 0px;
+                                    margin: 0px;
+                                    width: 103px;
+                                    vertical-align: bottom;
+                                }
+
+                                .td18 {
+                                    border-right: #000000 1px solid;
+                                    border-bottom: #000000 1px solid;
+                                    padding: 0px;
+                                    margin: 0px;
+                                    width: 104px;
+                                    vertical-align: bottom;
+                                }
+
+                                .td19 {
+                                    border-right: #000000 1px solid;
+                                    border-bottom: #000000 1px solid;
+                                    padding: 0px;
+                                    margin: 0px;
+                                    width: 19px;
+                                    vertical-align: bottom;
+                                }
+
+                                .td20 {
+                                    padding: 0px;
+                                    margin: 0px;
+                                    width: 124px;
+                                    vertical-align: bottom;
+                                }
+
+                                .td21 {
+                                    padding: 0px;
+                                    margin: 0px;
+                                    width: 70px;
+                                    vertical-align: bottom;
+                                }
+
+                                .td22 {
+                                    border-bottom: #000000 1px solid;
+                                    padding: 0px;
+                                    margin: 0px;
+                                    width: 70px;
+                                    vertical-align: bottom;
+                                }
+
+                                .td23 {
+                                    border-right: #000000 1px solid;
+                                    border-bottom: #000000 1px solid;
+                                    padding: 0px;
+                                    margin: 0px;
+                                    width: 69px;
+                                    vertical-align: bottom;
+                                    background: #c0c0c0;
+                                }
+
+                                .td24 {
+                                    border-right: #000000 1px solid;
+                                    border-bottom: #000000 1px solid;
+                                    padding: 0px;
+                                    margin: 0px;
+                                    width: 69px;
+                                    vertical-align: bottom;
+                                }
+
+                                .tr0 {
+                                    height: 26px;
+                                }
+
+                                .tr1 {
+                                    height: 18px;
+                                }
+
+                                .tr2 {
+                                    height: 19px;
+                                }
+
+                                .tr3 {
+                                    height: 21px;
+                                }
+
+                                .tr4 {
+                                    height: 40px;
+                                }
+
+                                .tr5 {
+                                    height: 45px;
+                                }
+
+                                .tr6 {
+                                    height: 20px;
+                                }
+
+                                .tr7 {
+                                    height: 17px;
+                                }
+
+                                .tr8 {
+                                    height: 23px;
+                                }
+
+                                .tr9 {
+                                    height: 22px;
+                                }
+
+                                .t0 {
+                                    width: 698px;
+                                    margin-top: 11px;
+                                    font: 13px 'Arial';
+                                }
+
+                                .t1 {
+                                    width: 698px;
+                                    margin-top: 12px;
+                                    font: 13px 'Arial';
+                                }
+                            </style>
+                        </head>
+                        <body>
+                            <div id=""page_1"">
+                                <div id=""p1dimg1"">
+                                    <img src=""data:image/jpg;base64,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"" id=""p1img1"">
+                                </div>";
+            htmlBody += @"<p class=""p0 ft0"">Order# " + orderId + "</p>";
+            htmlBody += @"<p class=""p0 ft0"">Messrs Islam Furniture</p>
+                        <p class=""p1 ft1"">North side of Merchant Academy West side Gate , Hall Road, Raipur, Laxmipur. Messrs Islam Traders</p>
+                        <p class=""p2 ft2"">Middle road between Jamuna Bank and Sonali Bank, Cayadat Emdad Miaji Road, Raipur, Laxmipur. Mobile# 01735004102</p>
+                        <p class=""p0 ft0"">Date:" + DateTime.Now.ToString("dddd, dd MMMM yyyy") + "</p>";
+            htmlBody += @"<table cellpadding=""0"" cellspacing=""0"" class=""t0"">
+                            <tbody>
+                                <tr>
+                                    <td class=""tr0 td0""><p class=""p3 ft0"">Billing Information:</p></td>
+                                    <td class=""tr0 td2""><p class=""p5 ft3"">&nbsp;</p></td>
+                                    <td class=""tr0 td3""><p class=""p5 ft3"">&nbsp;</p></td>
+                                    <td class=""tr0 td4""><p class=""p5 ft3"">&nbsp;</p></td>
+                                </tr>
+                                <tr>
+                                    <td class=""tr1 td0""><p class=""p6 ft4"">Name: " + txtCustomer.Text.Trim() + "</p></td>";
+            htmlBody += @" <td class=""tr1 td2""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr1 td3""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr1 td4""><p class=""p5 ft3"">&nbsp;</p></td>
+                </tr>
+                <tr>
+                    <td class=""tr2 td0""><p class=""p6 ft4"">Phone: " + txtMobile.Text.Trim() + "</p></td>";
+            htmlBody += @"
+                    <td class=""tr2 td2""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr2 td3""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr2 td4""><p class=""p5 ft3"">&nbsp;</p></td>
+                </tr>
+                <tr>
+                    <td class=""tr2 td0""><p class=""p6 ft4"">Address: " + txtAddress.Text.Trim() + "</p></td>";
+            htmlBody += @"
+                    <td class=""tr2 td2""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr2 td3""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr2 td4""><p class=""p5 ft3"">&nbsp;</p></td>
+                </tr>
+                <tr>
+                    <td class=""tr2 td0""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr2 td2""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr2 td3""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr2 td4""><p class=""p5 ft3"">&nbsp;</p></td>
+                </tr>
+                <tr>
+                    <td class=""tr3 td0""><p class=""p6 ft4"">Payment method: " + cbPaymentMethod.Text + "</p></td>";
+            htmlBody += @"
+                    <td class=""tr3 td2""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr3 td3""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr3 td4""><p class=""p5 ft3"">&nbsp;</p></td>
+                </tr>
+                <tr>
+                    <td class=""tr2 td0""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr2 td2""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr2 td3""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr2 td4""><p class=""p5 ft3"">&nbsp;</p></td>
+                </tr>
+                <tr>
+                    <td class=""tr5 td0""><p class=""p8 ft0"">Product(s)</p></td>
+                    <td class=""tr5 td4""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr5 td5""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr5 td2""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr5 td3""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr5 td4""><p class=""p5 ft3"">&nbsp;</p></td>
+                </tr>
+                <tr>
+                    <td class=""tr6 td6""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr6 td7""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr6 td8""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr6 td9""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr6 td10""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr6 td7""><p class=""p5 ft3"">&nbsp;</p></td>
+                </tr>
+                <tr>
+                    <td class=""tr7 td11""><p class=""p9 ft4"">Name</p></td>
+                    <td class=""tr7 td12""><p class=""p10 ft4"">SKU</p></td>
+                    <td class=""tr7 td13""><p class=""p10 ft4"">Price</p></td>
+                    <td class=""tr7 td14""><p class=""p11 ft4"">Qty</p></td>
+                    <td class=""tr7 td15""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr7 td12""><p class=""p12 ft4"">Total</p></td>
+                </tr>";
+            foreach (DataGridViewRow r in gvOrderItems.Rows)
+            {
+                htmlBody += @"<tr>
+                                <td class=""tr8 td16""><p class=""p3 ft4"">" + r.Cells["Name"].Value + "</p></td>";
+                htmlBody += @"<td class=""tr8 td17""><p class=""p10 ft4"">" + r.Cells["Sku"].Value + "</p></td>";
+                htmlBody += @"<td class=""tr8 td18""><p class=""p13 ft4""><span class=""ft7"">৳ </span>" + r.Cells["UnitPrice"].Value + "</p></td>";
+                htmlBody += @"<td class=""tr8 td9""><p class=""p14 ft4"">" + r.Cells["Quantity"].Value + "</p></td>";
+                htmlBody += @"<td class=""tr8 td19""><p class=""p5 ft3"">&nbsp;</p></td>";
+                htmlBody += @"<td class=""tr8 td17""><p class=""p15 ft5""><span class=""ft8"">৳ </span>" + r.Cells["Price"].Value + "</p></td>";
+                htmlBody += @"</tr>";
+            }
+            htmlBody += @"<tr>
+                    <td class=""tr9 td0""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr9 td4""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr9 td5""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr9 td2""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td colspan=""2"" class=""tr9 td20""><p class=""p16 ft4""><nobr>Sub-total:</nobr> <span class=""ft7"">৳ </span>" + lblSubTotal.Text + "</p></td>";
+            htmlBody += @"</tr>
+                <tr>
+                    <td class=""tr2 td0""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr2 td4""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr2 td5""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr2 td2""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr2 td3""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr2 td4""><p class=""p16 ft4"">Discount: <span class=""ft7"">৳ </span>" + txtDiscount.Text + "</p></td>";
+            htmlBody += @"</tr>
+                <tr>
+                    <td class=""tr1 td0""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr1 td4""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr1 td5""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr1 td2""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td colspan=""2"" class=""tr1 td20""><p class=""p16 ft10"">Order total: <span class=""ft9"">৳ </span>" + lblTotal.Text + "</p></td>";
+            double due = Convert.ToDouble(lblTotal.Text) - Convert.ToDouble(txtCash.Text);
+            htmlBody += @"</tr>
+                          <tr>
+                            <td class=""tr6 td0""><p class=""p5 ft3"">&nbsp;</p></td>
+                            <td class=""tr6 td4""><p class=""p5 ft3"">&nbsp;</p></td>
+                            <td class=""tr6 td5""><p class=""p5 ft3"">&nbsp;</p></td>
+                            <td class=""tr6 td2""><p class=""p5 ft3"">&nbsp;</p></td>
+                            <td class=""tr6 td3""><p class=""p5 ft3"">&nbsp;</p></td>
+                            <td class=""tr6 td4""><p class=""p16 ft0"">Due: <span class=""ft9"">৳ </span>" + due + "</p></td>";
+            htmlBody += @" </tr>
+                <tr>
+                    <td class=""tr2 td0""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr2 td4""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr2 td5""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr2 td2""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr2 td3""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr2 td4""><p class=""p16 ft11"">Total Paid: <span class=""ft9"">৳ </span>" + txtCash.Text.Trim() + "</p></td>";
+            htmlBody += @"</tr>
+                        </tbody>
+                    </table>";
+
+
+            htmlBody += "<hr>";
+
+            //2nd part
+            htmlBody += @"<table cellpadding=""0"" cellspacing=""0"" class=""t0"">
+                            <tbody>
+                                <tr>
+                                    <td class=""tr0 td0""><p class=""p3 ft0"">Billing Information:</p></td>
+                                    <td class=""tr0 td2""><p class=""p5 ft3"">&nbsp;</p></td>
+                                    <td class=""tr0 td3""><p class=""p5 ft3"">&nbsp;</p></td>
+                                    <td class=""tr0 td4""><p class=""p5 ft3"">&nbsp;</p></td>
+                                </tr>
+                                <tr>
+                                    <td class=""tr1 td0""><p class=""p6 ft4"">Name: " + txtCustomer.Text.Trim() + "</p></td>";
+            htmlBody += @" <td class=""tr1 td2""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr1 td3""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr1 td4""><p class=""p5 ft3"">&nbsp;</p></td>
+                </tr>
+                <tr>
+                    <td class=""tr2 td0""><p class=""p6 ft4"">Phone: " + txtMobile.Text.Trim() + "</p></td>";
+            htmlBody += @"
+                    <td class=""tr2 td2""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr2 td3""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr2 td4""><p class=""p5 ft3"">&nbsp;</p></td>
+                </tr>
+                <tr>
+                    <td class=""tr2 td0""><p class=""p6 ft4"">Address: " + txtAddress.Text.Trim() + "</p></td>";
+            htmlBody += @"
+                    <td class=""tr2 td2""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr2 td3""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr2 td4""><p class=""p5 ft3"">&nbsp;</p></td>
+                </tr>
+                
+                <tr>
+                    <td class=""tr5 td0""><p class=""p8 ft0"">Product(s)</p></td>
+                    <td class=""tr5 td4""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr5 td5""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr5 td2""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr5 td3""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr5 td4""><p class=""p5 ft3"">&nbsp;</p></td>
+                </tr>
+                <tr>
+                    <td class=""tr6 td6""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr6 td7""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr6 td8""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr6 td9""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr6 td10""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr6 td7""><p class=""p5 ft3"">&nbsp;</p></td>
+                </tr>
+                <tr>
+                    <td class=""tr7 td11""><p class=""p9 ft4"">Name</p></td>
+                    <td class=""tr7 td12""><p class=""p10 ft4"">SKU</p></td>
+                    <td class=""tr7 td13""><p class=""p10 ft4"">Price</p></td>
+                    <td class=""tr7 td14""><p class=""p11 ft4"">Qty</p></td>
+                    <td class=""tr7 td15""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr7 td12""><p class=""p12 ft4"">Total</p></td>
+                </tr>";
+            foreach (DataGridViewRow r in gvOrderItems.Rows)
+            {
+                htmlBody += @"<tr>
+                                <td class=""tr8 td16""><p class=""p3 ft4"">" + r.Cells["Name"].Value + "</p></td>";
+                htmlBody += @"<td class=""tr8 td17""><p class=""p10 ft4"">" + r.Cells["Sku"].Value + "</p></td>";
+                htmlBody += @"<td class=""tr8 td18""><p class=""p13 ft4""><span class=""ft7"">৳ </span>" + r.Cells["UnitPrice"].Value + "</p></td>";
+                htmlBody += @"<td class=""tr8 td9""><p class=""p14 ft4"">" + r.Cells["Quantity"].Value + "</p></td>";
+                htmlBody += @"<td class=""tr8 td19""><p class=""p5 ft3"">&nbsp;</p></td>";
+                htmlBody += @"<td class=""tr8 td17""><p class=""p15 ft5""><span class=""ft8"">৳ </span>" + r.Cells["Price"].Value + "</p></td>";
+                htmlBody += @"</tr>";
+            }
+            htmlBody += @"<tr>
+                    <td class=""tr9 td0""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr9 td4""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr9 td5""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr9 td2""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td colspan=""2"" class=""tr9 td20""><p class=""p16 ft4""><nobr>Sub-total:</nobr> <span class=""ft7"">৳ </span>" + lblSubTotal.Text + "</p></td>";
+            htmlBody += @"</tr>
+                <tr>
+                    <td class=""tr2 td0""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr2 td4""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr2 td5""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr2 td2""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr2 td3""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr2 td4""><p class=""p16 ft4"">Discount: <span class=""ft7"">৳ </span>" + txtDiscount.Text + "</p></td>";
+            htmlBody += @"</tr>
+                <tr>
+                    <td class=""tr1 td0""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr1 td4""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr1 td5""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr1 td2""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td colspan=""2"" class=""tr1 td20""><p class=""p16 ft10"">Order total: <span class=""ft9"">৳ </span>" + lblTotal.Text + "</p></td>";
+            due = Convert.ToDouble(lblTotal.Text) - Convert.ToDouble(txtCash.Text);
+            htmlBody += @"</tr>
+                          <tr>
+                            <td class=""tr6 td0""><p class=""p5 ft3"">&nbsp;</p></td>
+                            <td class=""tr6 td4""><p class=""p5 ft3"">&nbsp;</p></td>
+                            <td class=""tr6 td5""><p class=""p5 ft3"">&nbsp;</p></td>
+                            <td class=""tr6 td2""><p class=""p5 ft3"">&nbsp;</p></td>
+                            <td class=""tr6 td3""><p class=""p5 ft3"">&nbsp;</p></td>
+                            <td class=""tr6 td4""><p class=""p16 ft0"">Due: <span class=""ft9"">৳ </span>" + due + "</p></td>";
+            htmlBody += @" </tr>
+                <tr>
+                    <td class=""tr2 td0""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr2 td4""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr2 td5""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr2 td2""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr2 td3""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr2 td4""><p class=""p16 ft11"">Total Paid: <span class=""ft9"">৳ </span>" + txtCash.Text.Trim() + "</p></td>";
+            htmlBody += @"</tr>
+                        </tbody>
+                    </table>";
+
+            return htmlBody;
+        }
+		
+-----------------------------------------------------------------
+
+private string CreateHtmlOrderDetails(string orderId)
+        {
+            string htmlBody = @"<!DOCTYPE html>
+                        <html lang=""en"" xmlns=""http://www.w3.org/1999/xhtml"">
+                        <head>
+                            <meta http-equiv=""Content-Type"" content=""text/html; charset=UTF-8"">
+                            <meta http-equiv=""X-UA-Compatible"" content=""IE=8"">
+                            <title>bcl_424300587.htm</title>
+                            <meta name=""generator"" content=""BCL easyConverter SDK 5.0.140"">
+                            <style type=""text/css"">
+                                body {
+                                    margin-top: 0px;
+                                    margin-left: 0px;
+                                }
+
+                                #page_1 {
+                                    position: relative;
+                                    overflow: hidden;
+                                    margin: 47px 0px 148px 48px;
+                                    padding: 0px;
+                                    border: none;
+                                    width: 745px;
+                                }
+
+                                    #page_1 #p1dimg1 {
+                                        position: absolute;
+                                        top: 4px;
+                                        left: 608px;
+                                        z-index: -1;
+                                        width: 87px;
+                                        height: 542px;
+                                    }
+
+                                        #page_1 #p1dimg1 #p1img1 {
+                                            width: 87px;
+                                            height: 542px;
+                                        }
+
+
+
+
+                                .ft0 {
+                                    font: bold 13px 'Arial';
+                                    line-height: 16px;
+                                }
+
+                                .ft1 {
+                                    font: bold 13px 'Arial';
+                                    line-height: 14px;
+                                }
+
+                                .ft2 {
+                                    font: bold 13px 'Arial';
+                                    line-height: 13px;
+                                }
+
+                                .ft3 {
+                                    font: 1px 'Arial';
+                                    line-height: 1px;
+                                }
+
+                                .ft4 {
+                                    font: 13px 'Arial';
+                                    line-height: 16px;
+                                }
+
+                                .ft5 {
+                                    font: 12px 'Arial';
+                                    line-height: 15px;
+                                }
+
+                                .ft6 {
+                                    font: 11px 'Arial';
+                                    line-height: 14px;
+                                }
+
+                                .ft7 {
+                                    font: 13px 'MS PGothic';
+                                    line-height: 13px;
+                                }
+
+                                .ft8 {
+                                    font: 12px 'MS PGothic';
+                                    line-height: 12px;
+                                }
+
+                                .ft9 {
+                                    font: bold 11px 'MS PGothic';
+                                    line-height: 11px;
+                                }
+
+                                .ft10 {
+                                    font: bold 11px 'Arial';
+                                    line-height: 14px;
+                                }
+
+                                .ft11 {
+                                    font: bold 12px 'Arial';
+                                    line-height: 15px;
+                                }
+
+                                .ft12 {
+                                    font: 16px 'Helvetica';
+                                    line-height: 18px;
+                                }
+
+                                .ft13 {
+                                    font: bold 13px 'MS PGothic';
+                                    line-height: 13px;
+                                }
+
+                                .p0 {
+                                    text-align: left;
+                                    padding-left: 3px;
+                                    margin-top: 0px;
+                                    margin-bottom: 0px;
+                                }
+
+                                .p1 {
+                                    text-align: left;
+                                    padding-left: 3px;
+                                    padding-right: 309px;
+                                    margin-top: 0px;
+                                    margin-bottom: 0px;
+                                }
+
+                                .p2 {
+                                    text-align: left;
+                                    padding-left: 3px;
+                                    padding-right: 201px;
+                                    margin-top: 0px;
+                                    margin-bottom: 0px;
+                                }
+
+                                .p3 {
+                                    text-align: left;
+                                    padding-left: 5px;
+                                    margin-top: 0px;
+                                    margin-bottom: 0px;
+                                    white-space: nowrap;
+                                }
+
+                                .p4 {
+                                    text-align: left;
+                                    padding-left: 39px;
+                                    margin-top: 0px;
+                                    margin-bottom: 0px;
+                                    white-space: nowrap;
+                                }
+
+                                .p5 {
+                                    text-align: left;
+                                    margin-top: 0px;
+                                    margin-bottom: 0px;
+                                    white-space: nowrap;
+                                }
+
+                                .p6 {
+                                    text-align: left;
+                                    padding-left: 15px;
+                                    margin-top: 0px;
+                                    margin-bottom: 0px;
+                                    white-space: nowrap;
+                                }
+
+                                .p7 {
+                                    text-align: left;
+                                    padding-left: 49px;
+                                    margin-top: 0px;
+                                    margin-bottom: 0px;
+                                    white-space: nowrap;
+                                }
+
+                                .p8 {
+                                    text-align: left;
+                                    padding-left: 3px;
+                                    margin-top: 0px;
+                                    margin-bottom: 0px;
+                                    white-space: nowrap;
+                                }
+
+                                .p9 {
+                                    text-align: left;
+                                    padding-left: 141px;
+                                    margin-top: 0px;
+                                    margin-bottom: 0px;
+                                    white-space: nowrap;
+                                }
+
+                                .p10 {
+                                    text-align: left;
+                                    padding-left: 38px;
+                                    margin-top: 0px;
+                                    margin-bottom: 0px;
+                                    white-space: nowrap;
+                                }
+
+                                .p11 {
+                                    text-align: right;
+                                    padding-right: 6px;
+                                    margin-top: 0px;
+                                    margin-bottom: 0px;
+                                    white-space: nowrap;
+                                }
+
+                                .p12 {
+                                    text-align: right;
+                                    padding-right: 38px;
+                                    margin-top: 0px;
+                                    margin-bottom: 0px;
+                                    white-space: nowrap;
+                                }
+
+                                .p13 {
+                                    text-align: left;
+                                    padding-left: 2px;
+                                    margin-top: 0px;
+                                    margin-bottom: 0px;
+                                    white-space: nowrap;
+                                }
+
+                                .p14 {
+                                    text-align: right;
+                                    padding-right: 42px;
+                                    margin-top: 0px;
+                                    margin-bottom: 0px;
+                                    white-space: nowrap;
+                                }
+
+                                .p15 {
+                                    text-align: right;
+                                    padding-right: 46px;
+                                    margin-top: 0px;
+                                    margin-bottom: 0px;
+                                    white-space: nowrap;
+                                }
+
+                                .p16 {
+                                    text-align: right;
+                                    padding-right: 3px;
+                                    margin-top: 0px;
+                                    margin-bottom: 0px;
+                                    white-space: nowrap;
+                                }
+
+                                .p17 {
+                                    text-align: left;
+                                    margin-top: 28px;
+                                    margin-bottom: 0px;
+                                }
+
+                                .p18 {
+                                    text-align: left;
+                                    padding-left: 3px;
+                                    margin-top: 19px;
+                                    margin-bottom: 0px;
+                                }
+
+                                .p19 {
+                                    text-align: right;
+                                    padding-right: 25px;
+                                    margin-top: 0px;
+                                    margin-bottom: 0px;
+                                    white-space: nowrap;
+                                }
+
+                                .p20 {
+                                    text-align: left;
+                                    padding-left: 37px;
+                                    margin-top: 0px;
+                                    margin-bottom: 0px;
+                                    white-space: nowrap;
+                                }
+
+                                .p21 {
+                                    text-align: right;
+                                    padding-right: 61px;
+                                    margin-top: 0px;
+                                    margin-bottom: 0px;
+                                    white-space: nowrap;
+                                }
+
+                                .p22 {
+                                    text-align: left;
+                                    padding-left: 1px;
+                                    margin-top: 0px;
+                                    margin-bottom: 0px;
+                                    white-space: nowrap;
+                                }
+
+                                .p23 {
+                                    text-align: left;
+                                    padding-left: 584px;
+                                    margin-top: 3px;
+                                    margin-bottom: 0px;
+                                }
+
+                                .p24 {
+                                    text-align: left;
+                                    padding-left: 608px;
+                                    margin-top: 3px;
+                                    margin-bottom: 0px;
+                                }
+
+                                .p25 {
+                                    text-align: left;
+                                    padding-left: 574px;
+                                    margin-top: 2px;
+                                    margin-bottom: 0px;
+                                }
+
+                                .p26 {
+                                    text-align: left;
+                                    padding-left: 599px;
+                                    margin-top: 3px;
+                                    margin-bottom: 0px;
+                                }
+
+                                .p27 {
+                                    text-align: left;
+                                    padding-left: 612px;
+                                    margin-top: 3px;
+                                    margin-bottom: 0px;
+                                }
+
+                                .td0 {
+                                    padding: 0px;
+                                    margin: 0px;
+                                    width: 315px;
+                                    vertical-align: bottom;
+                                }
+
+                                .td1 {
+                                    padding: 0px;
+                                    margin: 0px;
+                                    width: 209px;
+                                    vertical-align: bottom;
+                                }
+
+                                .td2 {
+                                    padding: 0px;
+                                    margin: 0px;
+                                    width: 50px;
+                                    vertical-align: bottom;
+                                }
+
+                                .td3 {
+                                    padding: 0px;
+                                    margin: 0px;
+                                    width: 20px;
+                                    vertical-align: bottom;
+                                }
+
+                                .td4 {
+                                    padding: 0px;
+                                    margin: 0px;
+                                    width: 104px;
+                                    vertical-align: bottom;
+                                }
+
+                                .td5 {
+                                    padding: 0px;
+                                    margin: 0px;
+                                    width: 105px;
+                                    vertical-align: bottom;
+                                }
+
+                                .td6 {
+                                    border-bottom: #000000 1px solid;
+                                    padding: 0px;
+                                    margin: 0px;
+                                    width: 315px;
+                                    vertical-align: bottom;
+                                }
+
+                                .td7 {
+                                    border-bottom: #000000 1px solid;
+                                    padding: 0px;
+                                    margin: 0px;
+                                    width: 104px;
+                                    vertical-align: bottom;
+                                }
+
+                                .td8 {
+                                    border-bottom: #000000 1px solid;
+                                    padding: 0px;
+                                    margin: 0px;
+                                    width: 105px;
+                                    vertical-align: bottom;
+                                }
+
+                                .td9 {
+                                    border-bottom: #000000 1px solid;
+                                    padding: 0px;
+                                    margin: 0px;
+                                    width: 50px;
+                                    vertical-align: bottom;
+                                }
+
+                                .td10 {
+                                    border-bottom: #000000 1px solid;
+                                    padding: 0px;
+                                    margin: 0px;
+                                    width: 20px;
+                                    vertical-align: bottom;
+                                }
+
+                                .td11 {
+                                    border-left: #000000 1px solid;
+                                    border-right: #000000 1px solid;
+                                    border-bottom: #000000 1px solid;
+                                    padding: 0px;
+                                    margin: 0px;
+                                    width: 313px;
+                                    vertical-align: bottom;
+                                    background: #c0c0c0;
+                                }
+
+                                .td12 {
+                                    border-right: #000000 1px solid;
+                                    border-bottom: #000000 1px solid;
+                                    padding: 0px;
+                                    margin: 0px;
+                                    width: 103px;
+                                    vertical-align: bottom;
+                                    background: #c0c0c0;
+                                }
+
+                                .td13 {
+                                    border-right: #000000 1px solid;
+                                    border-bottom: #000000 1px solid;
+                                    padding: 0px;
+                                    margin: 0px;
+                                    width: 104px;
+                                    vertical-align: bottom;
+                                    background: #c0c0c0;
+                                }
+
+                                .td14 {
+                                    border-bottom: #000000 1px solid;
+                                    padding: 0px;
+                                    margin: 0px;
+                                    width: 50px;
+                                    vertical-align: bottom;
+                                    background: #c0c0c0;
+                                }
+
+                                .td15 {
+                                    border-right: #000000 1px solid;
+                                    border-bottom: #000000 1px solid;
+                                    padding: 0px;
+                                    margin: 0px;
+                                    width: 19px;
+                                    vertical-align: bottom;
+                                    background: #c0c0c0;
+                                }
+
+                                .td16 {
+                                    border-left: #000000 1px solid;
+                                    border-right: #000000 1px solid;
+                                    border-bottom: #000000 1px solid;
+                                    padding: 0px;
+                                    margin: 0px;
+                                    width: 313px;
+                                    vertical-align: bottom;
+                                }
+
+                                .td17 {
+                                    border-right: #000000 1px solid;
+                                    border-bottom: #000000 1px solid;
+                                    padding: 0px;
+                                    margin: 0px;
+                                    width: 103px;
+                                    vertical-align: bottom;
+                                }
+
+                                .td18 {
+                                    border-right: #000000 1px solid;
+                                    border-bottom: #000000 1px solid;
+                                    padding: 0px;
+                                    margin: 0px;
+                                    width: 104px;
+                                    vertical-align: bottom;
+                                }
+
+                                .td19 {
+                                    border-right: #000000 1px solid;
+                                    border-bottom: #000000 1px solid;
+                                    padding: 0px;
+                                    margin: 0px;
+                                    width: 19px;
+                                    vertical-align: bottom;
+                                }
+
+                                .td20 {
+                                    padding: 0px;
+                                    margin: 0px;
+                                    width: 124px;
+                                    vertical-align: bottom;
+                                }
+
+                                .td21 {
+                                    padding: 0px;
+                                    margin: 0px;
+                                    width: 70px;
+                                    vertical-align: bottom;
+                                }
+
+                                .td22 {
+                                    border-bottom: #000000 1px solid;
+                                    padding: 0px;
+                                    margin: 0px;
+                                    width: 70px;
+                                    vertical-align: bottom;
+                                }
+
+                                .td23 {
+                                    border-right: #000000 1px solid;
+                                    border-bottom: #000000 1px solid;
+                                    padding: 0px;
+                                    margin: 0px;
+                                    width: 69px;
+                                    vertical-align: bottom;
+                                    background: #c0c0c0;
+                                }
+
+                                .td24 {
+                                    border-right: #000000 1px solid;
+                                    border-bottom: #000000 1px solid;
+                                    padding: 0px;
+                                    margin: 0px;
+                                    width: 69px;
+                                    vertical-align: bottom;
+                                }
+
+                                .tr0 {
+                                    height: 26px;
+                                }
+
+                                .tr1 {
+                                    height: 18px;
+                                }
+
+                                .tr2 {
+                                    height: 19px;
+                                }
+
+                                .tr3 {
+                                    height: 21px;
+                                }
+
+                                .tr4 {
+                                    height: 40px;
+                                }
+
+                                .tr5 {
+                                    height: 45px;
+                                }
+
+                                .tr6 {
+                                    height: 20px;
+                                }
+
+                                .tr7 {
+                                    height: 17px;
+                                }
+
+                                .tr8 {
+                                    height: 23px;
+                                }
+
+                                .tr9 {
+                                    height: 22px;
+                                }
+
+                                .t0 {
+                                    width: 698px;
+                                    margin-top: 11px;
+                                    font: 13px 'Arial';
+                                }
+
+                                .t1 {
+                                    width: 698px;
+                                    margin-top: 12px;
+                                    font: 13px 'Arial';
+                                }
+                            </style>
+                        </head>
+                        <body>
+                            <div id=""page_1"">
+                                <div id=""p1dimg1"">
+                                    <img src=""data:image/jpg;base64,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"" id=""p1img1"">
+                                </div>";
+            htmlBody+= @"<p class=""p0 ft0"">Order# "+orderId+"</p>";
+            htmlBody += @"<p class=""p0 ft0"">Messrs Islam Furniture</p>
+                        <p class=""p1 ft1"">North side of Merchant Academy West side Gate , Hall Road, Raipur, Laxmipur. Messrs Islam Traders</p>
+                        <p class=""p2 ft2"">Middle road between Jamuna Bank and Sonali Bank, Cayadat Emdad Miaji Road, Raipur, Laxmipur. Mobile# 01735004102</p>
+                        <p class=""p0 ft0"">Date:"+DateTime.Now.ToString("dddd, dd MMMM yyyy") +"</p>";
+            htmlBody += @"<table cellpadding=""0"" cellspacing=""0"" class=""t0"">
+                            <tbody>
+                                <tr>
+                                    <td class=""tr0 td0""><p class=""p3 ft0"">Billing Information:</p></td>
+                                    <td class=""tr0 td2""><p class=""p5 ft3"">&nbsp;</p></td>
+                                    <td class=""tr0 td3""><p class=""p5 ft3"">&nbsp;</p></td>
+                                    <td class=""tr0 td4""><p class=""p5 ft3"">&nbsp;</p></td>
+                                </tr>
+                                <tr>
+                                    <td class=""tr1 td0""><p class=""p6 ft4"">Name: "+txtCustomer.Text.Trim()+"</p></td>";
+            htmlBody += @" <td class=""tr1 td2""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr1 td3""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr1 td4""><p class=""p5 ft3"">&nbsp;</p></td>
+                </tr>
+                <tr>
+                    <td class=""tr2 td0""><p class=""p6 ft4"">Phone: "+txtMobile.Text.Trim()+"</p></td>";
+            htmlBody += @"
+                    <td class=""tr2 td2""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr2 td3""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr2 td4""><p class=""p5 ft3"">&nbsp;</p></td>
+                </tr>
+                <tr>
+                    <td class=""tr2 td0""><p class=""p6 ft4"">Address: "+txtAddress.Text.Trim()+"</p></td>";
+            htmlBody += @"
+                    <td class=""tr2 td2""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr2 td3""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr2 td4""><p class=""p5 ft3"">&nbsp;</p></td>
+                </tr>
+                <tr>
+                    <td class=""tr2 td0""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr2 td2""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr2 td3""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr2 td4""><p class=""p5 ft3"">&nbsp;</p></td>
+                </tr>
+                <tr>
+                    <td class=""tr3 td0""><p class=""p6 ft4"">Payment method: "+cbPaymentMethod.Text+"</p></td>";
+            htmlBody += @"
+                    <td class=""tr3 td2""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr3 td3""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr3 td4""><p class=""p5 ft3"">&nbsp;</p></td>
+                </tr>
+                <tr>
+                    <td class=""tr2 td0""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr2 td2""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr2 td3""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr2 td4""><p class=""p5 ft3"">&nbsp;</p></td>
+                </tr>
+                <tr>
+                    <td class=""tr5 td0""><p class=""p8 ft0"">Product(s)</p></td>
+                    <td class=""tr5 td4""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr5 td5""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr5 td2""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr5 td3""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr5 td4""><p class=""p5 ft3"">&nbsp;</p></td>
+                </tr>
+                <tr>
+                    <td class=""tr6 td6""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr6 td7""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr6 td8""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr6 td9""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr6 td10""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr6 td7""><p class=""p5 ft3"">&nbsp;</p></td>
+                </tr>
+                <tr>
+                    <td class=""tr7 td11""><p class=""p9 ft4"">Name</p></td>
+                    <td class=""tr7 td12""><p class=""p10 ft4"">SKU</p></td>
+                    <td class=""tr7 td13""><p class=""p10 ft4"">Price</p></td>
+                    <td class=""tr7 td14""><p class=""p11 ft4"">Qty</p></td>
+                    <td class=""tr7 td15""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr7 td12""><p class=""p12 ft4"">Total</p></td>
+                </tr>";
+            foreach(DataRow r in SaleRegister.dtGVItems.Rows)
+            {
+                if(gvItems.Columns["WholeSalePrice"].Visible)
+                {
+                    htmlBody += @"<tr>
+                                <td class=""tr8 td16""><p class=""p3 ft4"">"+r["Name"] +"</p></td>";
+                    htmlBody += @"<td class=""tr8 td17""><p class=""p10 ft4"">"+r["Sku"] +"</p></td>";
+                    htmlBody += @"<td class=""tr8 td18""><p class=""p13 ft4""><span class=""ft7"">৳ </span>"+r["WholeSalePrice"] +"</p></td>";
+                    htmlBody += @"<td class=""tr8 td9""><p class=""p14 ft4"">"+r["Quantity"] +"</p></td>";
+                    htmlBody += @"<td class=""tr8 td19""><p class=""p5 ft3"">&nbsp;</p></td>";
+                    htmlBody += @"<td class=""tr8 td17""><p class=""p15 ft5""><span class=""ft8"">৳ </span>"+r["WholeSaleSubTotal"] +"</p></td>";
+                    htmlBody += @"</tr>";
+                }
+                else
+                {
+                    htmlBody += @"<tr>
+                                <td class=""tr8 td16""><p class=""p3 ft4"">" + r["Name"] + "</p></td>";
+                    htmlBody += @"<td class=""tr8 td17""><p class=""p10 ft4"">" + r["Sku"] + "</p></td>";
+                    htmlBody += @"<td class=""tr8 td18""><p class=""p13 ft4""><span class=""ft7"">৳ </span>" + r["Price"] + "</p></td>";
+                    htmlBody += @"<td class=""tr8 td9""><p class=""p14 ft4"">" + r["Quantity"] + "</p></td>";
+                    htmlBody += @"<td class=""tr8 td19""><p class=""p5 ft3"">&nbsp;</p></td>";
+                    htmlBody += @"<td class=""tr8 td17""><p class=""p15 ft5""><span class=""ft8"">৳ </span>" + r["SubTotal"] + "</p></td>";
+                    htmlBody += @"</tr>";
+                }
+            }
+            htmlBody += @"<tr>
+                    <td class=""tr9 td0""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr9 td4""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr9 td5""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr9 td2""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td colspan=""2"" class=""tr9 td20""><p class=""p16 ft4""><nobr>Sub-total:</nobr> <span class=""ft7"">৳ </span>"+lblSubTotal.Text+"</p></td>";
+            htmlBody += @"</tr>
+                <tr>
+                    <td class=""tr2 td0""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr2 td4""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr2 td5""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr2 td2""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr2 td3""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr2 td4""><p class=""p16 ft4"">Discount: <span class=""ft7"">৳ </span>"+lblDiscount.Text+"</p></td>";
+            htmlBody += @"</tr>
+                <tr>
+                    <td class=""tr1 td0""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr1 td4""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr1 td5""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr1 td2""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td colspan=""2"" class=""tr1 td20""><p class=""p16 ft10"">Order total: <span class=""ft9"">৳ </span>"+lblTotal.Text+"</p></td>";
+            double due = Convert.ToDouble(lblTotal.Text) - Convert.ToDouble(txtCash.Text);
+            htmlBody += @"</tr>
+                          <tr>
+                            <td class=""tr6 td0""><p class=""p5 ft3"">&nbsp;</p></td>
+                            <td class=""tr6 td4""><p class=""p5 ft3"">&nbsp;</p></td>
+                            <td class=""tr6 td5""><p class=""p5 ft3"">&nbsp;</p></td>
+                            <td class=""tr6 td2""><p class=""p5 ft3"">&nbsp;</p></td>
+                            <td class=""tr6 td3""><p class=""p5 ft3"">&nbsp;</p></td>
+                            <td class=""tr6 td4""><p class=""p16 ft0"">Due: <span class=""ft9"">৳ </span>" + due + "</p></td>";
+            htmlBody += @" </tr>
+                <tr>
+                    <td class=""tr2 td0""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr2 td4""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr2 td5""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr2 td2""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr2 td3""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr2 td4""><p class=""p16 ft11"">Total Paid: <span class=""ft9"">৳ </span>"+txtCash.Text.Trim()+"</p></td>";
+            htmlBody += @"</tr>
+                        </tbody>
+                    </table>";
+
+
+            htmlBody += "<hr>";
+
+            //2nd part
+            htmlBody += @"<table cellpadding=""0"" cellspacing=""0"" class=""t0"">
+                            <tbody>
+                                <tr>
+                                    <td class=""tr0 td0""><p class=""p3 ft0"">Billing Information:</p></td>
+                                    <td class=""tr0 td2""><p class=""p5 ft3"">&nbsp;</p></td>
+                                    <td class=""tr0 td3""><p class=""p5 ft3"">&nbsp;</p></td>
+                                    <td class=""tr0 td4""><p class=""p5 ft3"">&nbsp;</p></td>
+                                </tr>
+                                <tr>
+                                    <td class=""tr1 td0""><p class=""p6 ft4"">Name: " + txtCustomer.Text.Trim() + "</p></td>";
+            htmlBody += @" <td class=""tr1 td2""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr1 td3""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr1 td4""><p class=""p5 ft3"">&nbsp;</p></td>
+                </tr>
+                <tr>
+                    <td class=""tr2 td0""><p class=""p6 ft4"">Phone: " + txtMobile.Text.Trim() + "</p></td>";
+            htmlBody += @"
+                    <td class=""tr2 td2""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr2 td3""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr2 td4""><p class=""p5 ft3"">&nbsp;</p></td>
+                </tr>
+                <tr>
+                    <td class=""tr2 td0""><p class=""p6 ft4"">Address: " + txtAddress.Text.Trim() + "</p></td>";
+            htmlBody += @"
+                    <td class=""tr2 td2""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr2 td3""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr2 td4""><p class=""p5 ft3"">&nbsp;</p></td>
+                </tr>
+                
+                <tr>
+                    <td class=""tr5 td0""><p class=""p8 ft0"">Product(s)</p></td>
+                    <td class=""tr5 td4""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr5 td5""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr5 td2""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr5 td3""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr5 td4""><p class=""p5 ft3"">&nbsp;</p></td>
+                </tr>
+                <tr>
+                    <td class=""tr6 td6""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr6 td7""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr6 td8""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr6 td9""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr6 td10""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr6 td7""><p class=""p5 ft3"">&nbsp;</p></td>
+                </tr>
+                <tr>
+                    <td class=""tr7 td11""><p class=""p9 ft4"">Name</p></td>
+                    <td class=""tr7 td12""><p class=""p10 ft4"">SKU</p></td>
+                    <td class=""tr7 td13""><p class=""p10 ft4"">Price</p></td>
+                    <td class=""tr7 td14""><p class=""p11 ft4"">Qty</p></td>
+                    <td class=""tr7 td15""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr7 td12""><p class=""p12 ft4"">Total</p></td>
+                </tr>";
+            foreach (DataRow r in SaleRegister.dtGVItems.Rows)
+            {
+                if (gvItems.Columns["WholeSalePrice"].Visible)
+                {
+                    htmlBody += @"<tr>
+                                <td class=""tr8 td16""><p class=""p3 ft4"">" + r["Name"] + "</p></td>";
+                    htmlBody += @"<td class=""tr8 td17""><p class=""p10 ft4"">" + r["Sku"] + "</p></td>";
+                    htmlBody += @"<td class=""tr8 td18""><p class=""p13 ft4""><span class=""ft7"">৳ </span>" + r["WholeSalePrice"] + "</p></td>";
+                    htmlBody += @"<td class=""tr8 td9""><p class=""p14 ft4"">" + r["Quantity"] + "</p></td>";
+                    htmlBody += @"<td class=""tr8 td19""><p class=""p5 ft3"">&nbsp;</p></td>";
+                    htmlBody += @"<td class=""tr8 td17""><p class=""p15 ft5""><span class=""ft8"">৳ </span>" + r["WholeSaleSubTotal"] + "</p></td>";
+                    htmlBody += @"</tr>";
+                }
+                else
+                {
+                    htmlBody += @"<tr>
+                                <td class=""tr8 td16""><p class=""p3 ft4"">" + r["Name"] + "</p></td>";
+                    htmlBody += @"<td class=""tr8 td17""><p class=""p10 ft4"">" + r["Sku"] + "</p></td>";
+                    htmlBody += @"<td class=""tr8 td18""><p class=""p13 ft4""><span class=""ft7"">৳ </span>" + r["Price"] + "</p></td>";
+                    htmlBody += @"<td class=""tr8 td9""><p class=""p14 ft4"">" + r["Quantity"] + "</p></td>";
+                    htmlBody += @"<td class=""tr8 td19""><p class=""p5 ft3"">&nbsp;</p></td>";
+                    htmlBody += @"<td class=""tr8 td17""><p class=""p15 ft5""><span class=""ft8"">৳ </span>" + r["SubTotal"] + "</p></td>";
+                    htmlBody += @"</tr>";
+                }
+            }
+            htmlBody += @"<tr>
+                    <td class=""tr9 td0""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr9 td4""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr9 td5""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr9 td2""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td colspan=""2"" class=""tr9 td20""><p class=""p16 ft4""><nobr>Sub-total:</nobr> <span class=""ft7"">৳ </span>" + lblSubTotal.Text + "</p></td>";
+            htmlBody += @"</tr>
+                <tr>
+                    <td class=""tr2 td0""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr2 td4""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr2 td5""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr2 td2""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr2 td3""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr2 td4""><p class=""p16 ft4"">Discount: <span class=""ft7"">৳ </span>" + lblDiscount.Text + "</p></td>";
+            htmlBody += @"</tr>
+                <tr>
+                    <td class=""tr1 td0""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr1 td4""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr1 td5""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr1 td2""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td colspan=""2"" class=""tr1 td20""><p class=""p16 ft10"">Order total: <span class=""ft9"">৳ </span>" + lblTotal.Text + "</p></td>";
+            due = Convert.ToDouble(lblTotal.Text) - Convert.ToDouble(txtCash.Text);
+            htmlBody += @"</tr>
+                          <tr>
+                            <td class=""tr6 td0""><p class=""p5 ft3"">&nbsp;</p></td>
+                            <td class=""tr6 td4""><p class=""p5 ft3"">&nbsp;</p></td>
+                            <td class=""tr6 td5""><p class=""p5 ft3"">&nbsp;</p></td>
+                            <td class=""tr6 td2""><p class=""p5 ft3"">&nbsp;</p></td>
+                            <td class=""tr6 td3""><p class=""p5 ft3"">&nbsp;</p></td>
+                            <td class=""tr6 td4""><p class=""p16 ft0"">Due: <span class=""ft9"">৳ </span>" + due + "</p></td>";
+            htmlBody += @" </tr>
+                <tr>
+                    <td class=""tr2 td0""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr2 td4""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr2 td5""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr2 td2""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr2 td3""><p class=""p5 ft3"">&nbsp;</p></td>
+                    <td class=""tr2 td4""><p class=""p16 ft11"">Total Paid: <span class=""ft9"">৳ </span>" + txtCash.Text.Trim() + "</p></td>";
+            htmlBody += @"</tr>
+                        </tbody>
+                    </table>";
+
+            return htmlBody;
+        }		
+		
+		
+		
+		

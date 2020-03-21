@@ -1,0 +1,66 @@
+C:\D\OneDrive - IQVIA\Projects\DoTBanglaSoft\Projects\DotPOS\Desktop_3_5\DotPOS\DotPOS\bin\Release\DotPOS.exe.config
+C:\D\OneDrive - IQVIA\Projects\DoTBanglaSoft\Projects\DotPOS\Desktop_3_5\DotPOS\DotPOS\bin\Release\DotPOS.exe
+C:\D\OneDrive - IQVIA\Projects\DoTBanglaSoft\Projects\DotPOS\Desktop_3_5\DotPOS\DotPOS\bin\Release\DotPOS.pdb
+C:\D\OneDrive - IQVIA\Projects\DoTBanglaSoft\Projects\DotPOS\Desktop_3_5\DotPOS\DotPOS\bin\Release\DotPOS.Service.dll
+C:\D\OneDrive - IQVIA\Projects\DoTBanglaSoft\Projects\DotPOS\Desktop_3_5\DotPOS\DotPOS\bin\Release\DotPOS.Service.pdb
+C:\D\OneDrive - IQVIA\Projects\DoTBanglaSoft\Projects\DotPOS\Desktop_3_5\DotPOS\DotPOS\obj\Release\DotPOS.csprojResolveAssemblyReference.cache
+C:\D\OneDrive - IQVIA\Projects\DoTBanglaSoft\Projects\DotPOS\Desktop_3_5\DotPOS\DotPOS\obj\Release\DotPOS.Login.resources
+C:\D\OneDrive - IQVIA\Projects\DoTBanglaSoft\Projects\DotPOS\Desktop_3_5\DotPOS\DotPOS\obj\Release\DotPOS.MainWindow.resources
+C:\D\OneDrive - IQVIA\Projects\DoTBanglaSoft\Projects\DotPOS\Desktop_3_5\DotPOS\DotPOS\obj\Release\DotPOS.Order.Orders.resources
+C:\D\OneDrive - IQVIA\Projects\DoTBanglaSoft\Projects\DotPOS\Desktop_3_5\DotPOS\DotPOS\obj\Release\DotPOS.Product.NewProduct.resources
+C:\D\OneDrive - IQVIA\Projects\DoTBanglaSoft\Projects\DotPOS\Desktop_3_5\DotPOS\DotPOS\obj\Release\DotPOS.Product.Products.resources
+C:\D\OneDrive - IQVIA\Projects\DoTBanglaSoft\Projects\DotPOS\Desktop_3_5\DotPOS\DotPOS\obj\Release\DotPOS.Properties.Resources.resources
+C:\D\OneDrive - IQVIA\Projects\DoTBanglaSoft\Projects\DotPOS\Desktop_3_5\DotPOS\DotPOS\obj\Release\DotPOS.Report.Reports.resources
+C:\D\OneDrive - IQVIA\Projects\DoTBanglaSoft\Projects\DotPOS\Desktop_3_5\DotPOS\DotPOS\obj\Release\DotPOS.Sales.Order.resources
+C:\D\OneDrive - IQVIA\Projects\DoTBanglaSoft\Projects\DotPOS\Desktop_3_5\DotPOS\DotPOS\obj\Release\DotPOS.Sales.SaleRegister.resources
+C:\D\OneDrive - IQVIA\Projects\DoTBanglaSoft\Projects\DotPOS\Desktop_3_5\DotPOS\DotPOS\obj\Release\DotPOS.Security.Users.resources
+C:\D\OneDrive - IQVIA\Projects\DoTBanglaSoft\Projects\DotPOS\Desktop_3_5\DotPOS\DotPOS\obj\Release\DotPOS.csproj.GenerateResource.Cache
+C:\D\OneDrive - IQVIA\Projects\DoTBanglaSoft\Projects\DotPOS\Desktop_3_5\DotPOS\DotPOS\obj\Release\DotPOS.exe.licenses
+C:\D\OneDrive - IQVIA\Projects\DoTBanglaSoft\Projects\DotPOS\Desktop_3_5\DotPOS\DotPOS\obj\Release\DotPOS.exe
+C:\D\OneDrive - IQVIA\Projects\DoTBanglaSoft\Projects\DotPOS\Desktop_3_5\DotPOS\DotPOS\obj\Release\DotPOS.pdb
+C:\D\OneDrive - IQVIA\Projects\DoTBanglaSoft\Projects\DotPOS\Desktop\DotPOS\DotPOS\bin\Release\DotPOS.exe.config
+C:\D\OneDrive - IQVIA\Projects\DoTBanglaSoft\Projects\DotPOS\Desktop\DotPOS\DotPOS\obj\Release\DotPOS.exe
+C:\D\OneDrive - IQVIA\Projects\DoTBanglaSoft\Projects\DotPOS\Desktop\DotPOS\DotPOS\obj\Release\DotPOS.pdb
+C:\D\OneDrive - IQVIA\Projects\DoTBanglaSoft\Projects\DotPOS\Desktop\DotPOS\DotPOS\bin\Release\DotPOS.exe
+C:\D\OneDrive - IQVIA\Projects\DoTBanglaSoft\Projects\DotPOS\Desktop\DotPOS\DotPOS\bin\Release\DotPOS.pdb
+C:\D\OneDrive - IQVIA\Projects\DoTBanglaSoft\Projects\DotPOS\Desktop\DotPOS\DotPOS\bin\Release\DotPOS.Service.dll
+C:\D\OneDrive - IQVIA\Projects\DoTBanglaSoft\Projects\DotPOS\Desktop\DotPOS\DotPOS\bin\Release\DotPOS.Service.pdb
+C:\D\OneDrive - IQVIA\Projects\DoTBanglaSoft\Projects\DotPOS\Desktop\DotPOS\DotPOS\obj\Release\DotPOS.csprojResolveAssemblyReference.cache
+C:\D\OneDrive - IQVIA\Projects\DoTBanglaSoft\Projects\DotPOS\Desktop\DotPOS\DotPOS\obj\Release\DotPOS.Login.resources
+C:\D\OneDrive - IQVIA\Projects\DoTBanglaSoft\Projects\DotPOS\Desktop\DotPOS\DotPOS\obj\Release\DotPOS.MainWindow.resources
+C:\D\OneDrive - IQVIA\Projects\DoTBanglaSoft\Projects\DotPOS\Desktop\DotPOS\DotPOS\obj\Release\DotPOS.Order.Orders.resources
+C:\D\OneDrive - IQVIA\Projects\DoTBanglaSoft\Projects\DotPOS\Desktop\DotPOS\DotPOS\obj\Release\DotPOS.Product.NewProduct.resources
+C:\D\OneDrive - IQVIA\Projects\DoTBanglaSoft\Projects\DotPOS\Desktop\DotPOS\DotPOS\obj\Release\DotPOS.Product.Products.resources
+C:\D\OneDrive - IQVIA\Projects\DoTBanglaSoft\Projects\DotPOS\Desktop\DotPOS\DotPOS\obj\Release\DotPOS.Properties.Resources.resources
+C:\D\OneDrive - IQVIA\Projects\DoTBanglaSoft\Projects\DotPOS\Desktop\DotPOS\DotPOS\obj\Release\DotPOS.Report.Reports.resources
+C:\D\OneDrive - IQVIA\Projects\DoTBanglaSoft\Projects\DotPOS\Desktop\DotPOS\DotPOS\obj\Release\DotPOS.Sales.Order.resources
+C:\D\OneDrive - IQVIA\Projects\DoTBanglaSoft\Projects\DotPOS\Desktop\DotPOS\DotPOS\obj\Release\DotPOS.Sales.SaleRegister.resources
+C:\D\OneDrive - IQVIA\Projects\DoTBanglaSoft\Projects\DotPOS\Desktop\DotPOS\DotPOS\obj\Release\DotPOS.Security.Users.resources
+C:\D\OneDrive - IQVIA\Projects\DoTBanglaSoft\Projects\DotPOS\Desktop\DotPOS\DotPOS\obj\Release\DotPOS.csproj.GenerateResource.Cache
+C:\D\OneDrive - IQVIA\Projects\DoTBanglaSoft\Projects\DotPOS\Desktop\DotPOS\DotPOS\obj\Release\DotPOS.exe.licenses
+J:\DotBanglaSoft\Clients\PunnoElectricSolution\Desktop\DotPOS\DotPOS\bin\Release\DotPOS.exe.config
+J:\DotBanglaSoft\Clients\PunnoElectricSolution\Desktop\DotPOS\DotPOS\bin\Release\DotPOS.exe
+J:\DotBanglaSoft\Clients\PunnoElectricSolution\Desktop\DotPOS\DotPOS\bin\Release\DotPOS.pdb
+J:\DotBanglaSoft\Clients\PunnoElectricSolution\Desktop\DotPOS\DotPOS\bin\Release\DotPOS.Service.dll
+J:\DotBanglaSoft\Clients\PunnoElectricSolution\Desktop\DotPOS\DotPOS\bin\Release\DotPOS.Service.pdb
+J:\DotBanglaSoft\Clients\PunnoElectricSolution\Desktop\DotPOS\DotPOS\obj\Release\DotPOS.csprojAssemblyReference.cache
+J:\DotBanglaSoft\Clients\PunnoElectricSolution\Desktop\DotPOS\DotPOS\obj\Release\DotPOS.Login.resources
+J:\DotBanglaSoft\Clients\PunnoElectricSolution\Desktop\DotPOS\DotPOS\obj\Release\DotPOS.MainWindow.resources
+J:\DotBanglaSoft\Clients\PunnoElectricSolution\Desktop\DotPOS\DotPOS\obj\Release\DotPOS.Order.Orders.resources
+J:\DotBanglaSoft\Clients\PunnoElectricSolution\Desktop\DotPOS\DotPOS\obj\Release\DotPOS.Product.NewProduct.resources
+J:\DotBanglaSoft\Clients\PunnoElectricSolution\Desktop\DotPOS\DotPOS\obj\Release\DotPOS.Product.Products.resources
+J:\DotBanglaSoft\Clients\PunnoElectricSolution\Desktop\DotPOS\DotPOS\obj\Release\DotPOS.Properties.Resources.resources
+J:\DotBanglaSoft\Clients\PunnoElectricSolution\Desktop\DotPOS\DotPOS\obj\Release\DotPOS.Report.ReportDue.resources
+J:\DotBanglaSoft\Clients\PunnoElectricSolution\Desktop\DotPOS\DotPOS\obj\Release\DotPOS.Report.Reports.resources
+J:\DotBanglaSoft\Clients\PunnoElectricSolution\Desktop\DotPOS\DotPOS\obj\Release\DotPOS.Report.ReportProfit.resources
+J:\DotBanglaSoft\Clients\PunnoElectricSolution\Desktop\DotPOS\DotPOS\obj\Release\DotPOS.Report.ReportTodaySale.resources
+J:\DotBanglaSoft\Clients\PunnoElectricSolution\Desktop\DotPOS\DotPOS\obj\Release\DotPOS.Sales.Order.resources
+J:\DotBanglaSoft\Clients\PunnoElectricSolution\Desktop\DotPOS\DotPOS\obj\Release\DotPOS.Sales.SaleRegister.resources
+J:\DotBanglaSoft\Clients\PunnoElectricSolution\Desktop\DotPOS\DotPOS\obj\Release\DotPOS.Security.Users.resources
+J:\DotBanglaSoft\Clients\PunnoElectricSolution\Desktop\DotPOS\DotPOS\obj\Release\DotPOS.WebBrowserPrint.resources
+J:\DotBanglaSoft\Clients\PunnoElectricSolution\Desktop\DotPOS\DotPOS\obj\Release\DotPOS.csproj.GenerateResource.cache
+J:\DotBanglaSoft\Clients\PunnoElectricSolution\Desktop\DotPOS\DotPOS\obj\Release\DotPOS.csproj.CopyComplete
+J:\DotBanglaSoft\Clients\PunnoElectricSolution\Desktop\DotPOS\DotPOS\obj\Release\DotPOS.exe
+J:\DotBanglaSoft\Clients\PunnoElectricSolution\Desktop\DotPOS\DotPOS\obj\Release\DotPOS.pdb
+J:\DotBanglaSoft\Clients\PunnoElectricSolution\Desktop\DotPOS\DotPOS\obj\Release\DotPOS.Customer.Customers.resources
+J:\DotBanglaSoft\Clients\PunnoElectricSolution\Desktop\DotPOS\DotPOS\obj\Release\DotPOS.Report.ReportStock.resources

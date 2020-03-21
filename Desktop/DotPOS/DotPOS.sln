@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotPOS", "DotPOS\DotPOS.csproj", "{08343F7A-1400-4338-8466-45D24548B593}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotPOS.Service", "DotPOS.Service\DotPOS.Service.csproj", "{68511E63-31C4-4A68-A13A-4A5FAA2EB30F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{08343F7A-1400-4338-8466-45D24548B593}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{08343F7A-1400-4338-8466-45D24548B593}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{08343F7A-1400-4338-8466-45D24548B593}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{08343F7A-1400-4338-8466-45D24548B593}.Release|Any CPU.Build.0 = Release|Any CPU
+		{68511E63-31C4-4A68-A13A-4A5FAA2EB30F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{68511E63-31C4-4A68-A13A-4A5FAA2EB30F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{68511E63-31C4-4A68-A13A-4A5FAA2EB30F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{68511E63-31C4-4A68-A13A-4A5FAA2EB30F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

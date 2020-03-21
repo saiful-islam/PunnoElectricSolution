@@ -1,0 +1,1 @@
+Data Source=(localdb)\MSSQLLocalDB;Initial Catalog=DB_A367BD_IslamfurnitureAcc;User id=DB_A367BD_IslamfurnitureAcc_admin;
