@@ -60,6 +60,7 @@
             this.txtSearchCustomer = new System.Windows.Forms.TextBox();
             this.label9 = new System.Windows.Forms.Label();
             this.btnLoad = new System.Windows.Forms.Button();
+            this.label10 = new System.Windows.Forms.Label();
             ((System.ComponentModel.ISupportInitialize)(this.gvItems)).BeginInit();
             this.SuspendLayout();
             // 
@@ -155,7 +156,7 @@
             // 
             this.lblTotal.AutoSize = true;
             this.lblTotal.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblTotal.Location = new System.Drawing.Point(515, 470);
+            this.lblTotal.Location = new System.Drawing.Point(493, 470);
             this.lblTotal.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblTotal.Name = "lblTotal";
             this.lblTotal.Size = new System.Drawing.Size(50, 25);
@@ -198,7 +199,7 @@
             // 
             this.lblSubTotal.AutoSize = true;
             this.lblSubTotal.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblSubTotal.Location = new System.Drawing.Point(515, 388);
+            this.lblSubTotal.Location = new System.Drawing.Point(493, 388);
             this.lblSubTotal.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblSubTotal.Name = "lblSubTotal";
             this.lblSubTotal.Size = new System.Drawing.Size(50, 25);
@@ -242,7 +243,7 @@
             // 
             this.lblDiscount.AutoSize = true;
             this.lblDiscount.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lblDiscount.Location = new System.Drawing.Point(515, 423);
+            this.lblDiscount.Location = new System.Drawing.Point(493, 423);
             this.lblDiscount.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.lblDiscount.Name = "lblDiscount";
             this.lblDiscount.Size = new System.Drawing.Size(50, 25);
@@ -408,11 +409,23 @@
             this.btnLoad.UseVisualStyleBackColor = true;
             this.btnLoad.Click += new System.EventHandler(this.btnLoad_Click);
             // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label10.Location = new System.Drawing.Point(547, 423);
+            this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(30, 25);
+            this.label10.TabIndex = 32;
+            this.label10.Text = "%";
+            // 
             // Order
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(575, 590);
+            this.Controls.Add(this.label10);
             this.Controls.Add(this.btnLoad);
             this.Controls.Add(this.txtSearchCustomer);
             this.Controls.Add(this.label9);
@@ -490,5 +503,6 @@
         private System.Windows.Forms.TextBox txtSearchCustomer;
         private System.Windows.Forms.Label label9;
         private System.Windows.Forms.Button btnLoad;
+        private System.Windows.Forms.Label label10;
     }
 }

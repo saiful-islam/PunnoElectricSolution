@@ -69,7 +69,7 @@ namespace DotPOS.Service
                 return ex.Message;
             }
         }
-        public string ExecuteOrderDetails(string customerName, string address, string mobile, string total, string discount, DataTable items , bool isWholesale, string paymentStatus, string paymentMethod, string card, string payment, DateTime ExpectedDuePaymentDate, string OrderId, int customerId)
+        public string ExecuteOrderDetails(string customerName, string address, string mobile, string total, string subtotal, string discount, DataTable items , bool isWholesale, string paymentStatus, string paymentMethod, string card, string payment, DateTime ExpectedDuePaymentDate, string OrderId, int customerId)
         {
             try
             {
@@ -84,6 +84,7 @@ namespace DotPOS.Service
                 cmd.Parameters.AddWithValue("@CustomerAddress", address);
                 cmd.Parameters.AddWithValue("@Mobile", mobile);
                 cmd.Parameters.AddWithValue("@OrderTotal", total);
+                cmd.Parameters.AddWithValue("@OrderSubTotal", subtotal);
                 cmd.Parameters.AddWithValue("@Discount", discount==""? "0.00":discount);
                 cmd.Parameters.AddWithValue("@isWholeSale", isWholesale);
                 cmd.Parameters.AddWithValue("@Items", items).SqlDbType = SqlDbType.Structured;

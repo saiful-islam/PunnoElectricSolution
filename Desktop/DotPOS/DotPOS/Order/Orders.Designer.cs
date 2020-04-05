@@ -74,6 +74,7 @@
             this.txtCustomer = new System.Windows.Forms.TextBox();
             this.label13 = new System.Windows.Forms.Label();
             this.groupBox3 = new System.Windows.Forms.GroupBox();
+            this.label1 = new System.Windows.Forms.Label();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.gvOrders)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.gvOrderItems)).BeginInit();
@@ -200,6 +201,7 @@
             // 
             // gboxOrder
             // 
+            this.gboxOrder.Controls.Add(this.label1);
             this.gboxOrder.Controls.Add(this.lblProductCost);
             this.gboxOrder.Controls.Add(this.lblProfit);
             this.gboxOrder.Controls.Add(this.label15);
@@ -281,7 +283,7 @@
             this.txtDiscount.Location = new System.Drawing.Point(385, 80);
             this.txtDiscount.Margin = new System.Windows.Forms.Padding(2);
             this.txtDiscount.Name = "txtDiscount";
-            this.txtDiscount.Size = new System.Drawing.Size(102, 23);
+            this.txtDiscount.Size = new System.Drawing.Size(67, 23);
             this.txtDiscount.TabIndex = 57;
             this.txtDiscount.Text = "0.00";
             this.txtDiscount.TextChanged += new System.EventHandler(this.txtDiscount_TextChanged);
@@ -628,6 +630,17 @@
             this.groupBox3.TabStop = false;
             this.groupBox3.Text = "Order Items";
             // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 15F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.label1.Location = new System.Drawing.Point(456, 80);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(30, 25);
+            this.label1.TabIndex = 61;
+            this.label1.Text = "%";
+            // 
             // Orders
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -700,5 +713,6 @@
         private System.Windows.Forms.Label lblProfit;
         private System.Windows.Forms.Label label15;
         private System.Windows.Forms.Label lblProductCost;
+        private System.Windows.Forms.Label label1;
     }
 }

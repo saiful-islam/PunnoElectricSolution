@@ -174,7 +174,7 @@ namespace DotPOS.Sales
             {
                 discount = Convert.ToDouble(txtDiscount.Text);
             }
-            lblTotal.Text = (subtotal - discount).ToString();
+            lblTotal.Text = Math.Ceiling((subtotal - (subtotal*discount/100))).ToString();
         }
         public static void addToCart(string sku, string name, string price, string WholeSalePrice)
         {
